@@ -1,6 +1,6 @@
 export default function App() {
   return (
-    <header className="flex items-center  h-40 w-full bg-gray-900 ">
+    <header className="flex items-center justify-between h-40 w-full bg-gray-900 ">
       <a href="https://gaaga.wpengine.com/" rel="home">
         <img
           className="ml-20 mr-auto"
@@ -18,6 +18,9 @@ export default function App() {
         <li className="p-5 text-4xl font-bold font-sans">BLOG</li>
         <li className="p-5 text-4xl font-bold font-sans">CONTACT US</li>
       </ul>
+      <div className="flex items-center justify-center border-2 border-red-500 w-72  mr-10 h-28">
+        <h1 className="font-sans font-bold text-4xl text-white">Lets start</h1>
+      </div>
     </header>
   );
 }
