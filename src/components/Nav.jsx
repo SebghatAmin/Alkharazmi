@@ -1,7 +1,7 @@
 const Nav = () => {
   return (
-    <header>
-      <nav className="flex items-center justify-between h-40 w-full bg-gray-900 ">
+    <header className="fixed w-full top-0">
+      <nav className="flex items-center justify-between  h-40 w-full bg-gray-900 ">
         <a href="https://gaaga.wpengine.com/" rel="home">
           <img
             className="ml-20 mr-auto"
